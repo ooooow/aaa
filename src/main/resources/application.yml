@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  context-path: /
+spring:
+  application:
+    name: spring-aop
+
+management:
+  security:
+    enabled: false
+logging:
+  level:
+    root: INFO
